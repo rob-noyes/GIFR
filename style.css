@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(0, 0, 0);
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+button{
+    background: rgb(103, 104, 104);
+    color: aliceblue;
+    border: none;
+    margin: .25rem 0;
+    border-radius: .5rem;
+    font-size: 2rem;
+    width: 100%;
+    padding: 1rem 0;
+
+}
+
+input{
+    font-size: 2rem;
+    width: 95%;
+    padding: 1rem .5rem;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    margin: 1rem; 
+}
+
+@media screen and (min-width: 400px){
+    section{
+        max-width: 800px;
+    }
+    button{
+        max-width: 780px;
+    }
+}
+
+h2{
+    font-size: 2rem;
+    color: white;
+}
+
+h1{
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: white;
+}
